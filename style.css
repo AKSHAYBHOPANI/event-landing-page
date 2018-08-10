@@ -1,0 +1,40 @@
+.title {
+  margin-top: 20px;
+  padding: 10px;
+  text-shadow: 2px 2px #000;
+  color: #FFF;
+}
+body {
+    margin: 0px;
+    background-image: URL(background.jpg); 
+    background-size: cover;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: navy;
+}
+.textflow {
+    display: block;
+    margin-left: auto;
+    margin right: auto;
+    z-index: 40;
+    font-weight: 700;
+    border-radius: 300px;
+}
+.card {
+    font-size: 3rem;
+    color: navy;
+}
+.btn {
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 300px;
+    font-family: 'Montserrat', sans-serif;
+    background: orange;
+    border-color: black;
+    position: fixed;
+    z-index: 30;
+    top: 90%;
+    right: 0;
+  }
